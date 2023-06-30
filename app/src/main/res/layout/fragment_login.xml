@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.uncc.loginApp.LoginFragment">
+              <EditText
+                  android:id="@+id/LoginEmail"
+                  android:layout_width="321dp"
+                  android:layout_height="49dp"
+                  android:ems="10"
+                  android:hint="Email"
+                  android:inputType="textPersonName"
+                  app:layout_constraintBottom_toBottomOf="parent"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toTopOf="parent"
+                  app:layout_constraintVertical_bias="0.067" />
+
+
+<EditText
+android:id="@+id/LoginPassword"
+android:layout_width="321dp"
+android:layout_height="49dp"
+android:ems="10"
+android:hint="Password"
+android:inputType="textPersonName"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/LoginEmail"
+app:layout_constraintVertical_bias="0.044" />
+
+<Button
+android:id="@+id/LoginButton"
+android:layout_width="321dp"
+android:layout_height="49dp"
+android:backgroundTint="#9F9797"
+android:text="Login"
+android:textColor="#020202"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/LoginPassword"
+app:layout_constraintVertical_bias="0.078" />
+
+<Button
+android:id="@+id/CreateAccountButton"
+android:layout_width="321dp"
+android:layout_height="49dp"
+android:backgroundTint="#F3F0F0"
+android:text="Create New Account"
+android:textColor="#040303"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/LoginButton"
+app:layout_constraintVertical_bias="0.096" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
